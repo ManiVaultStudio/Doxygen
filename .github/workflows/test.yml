@@ -9,8 +9,8 @@ jobs:
     runs-on: windows-latest
     steps:
       - name: Checkout the core source code
-        - uses: actions/checkout@master
-          with:
+      - uses: actions/checkout@master
+        with:
           name: ManiVaultStudio/core
       - name: Setup doxygen
         uses: mattnotmitt/doxygen-action@v1.9.5
